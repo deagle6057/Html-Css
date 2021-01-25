@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Basic HTML Table</h2>
+    <table border = "2">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Kasim</td>
+            <td>Bektas</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <h2>Cell that spans two columns</h2>
+    <table border = "3">
+        <tr>
+            <th>Name</th>
+            <th colspan="2" align="right">Telephone</th>
+        </tr>
+
+        <tr>
+            <td>Bill</td>
+            <td>46521498735</td>
+            <td>16849865198</td>
+        </tr>
+    </table>
+
+    <h2>Cell that spans two rows</h2>
+    <table border = "3" >
+        <caption style="caption-side: bottom;">Cell that spans two rows</caption>
+        <tr >
+            <th>Name:</th>
+            <td>Mert Yucedag</td>
+        </tr>
+
+        <tr>
+            <th rowspan = "2">Telephone</td>
+            <td>46521498735</td>
+        </tr>
+
+        <tr>
+            <td>46585698735</td>
+        </tr>
+    </table>
+</body>
+</html>
